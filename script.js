@@ -4,6 +4,7 @@ const sliderContainer = document.querySelector('.slides');
 // Set the total width of the slides container
 sliderContainer.style.width = `${slides.length * 100}%`;
 
+
 let index = 0;
 
 function showSlide() {
